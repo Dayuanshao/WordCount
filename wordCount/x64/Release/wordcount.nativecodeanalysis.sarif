@@ -1,0 +1,36 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30709.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF742100C80 -il C:\\Users\\Lenovo\\AppData\\Local\\Temp\\_CL_6598a87cast -typedil -f wordcount.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030709 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -ltcg -D_CRT_SECURE_NO_WARNINGS -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Release\\wordcount.obj -Fdx64\\Release\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\repository\\gitTest\\wordCount\\wordCount -analyze:rulesetdirectory ;D:\\Viual Studio\\community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Viual Studio\\community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\include -I D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I D:\\Viual Studio\\community\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\repository\\gitTest\\wordCount\\wordCount\\Include\\um -external:I D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\include -I D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I D:\\Viual Studio\\community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I D:\\Viual Studio\\community\\VC\\Auxiliary\\VS\\include -I D:\\Viual Studio\\community\\VC\\Auxiliary\\VS\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\repository\\gitTest\\wordCount\\wordCount\\Include\\um -I D:\\repository\\gitTest\\wordCount\\wordCount\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/repository/gittest/wordcount/wordcount/wordcount.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c0217d19be808b3b7972dcf0eb02811dd1994bbea47ff38ec18a8a31e6d7e589"
+          }
+        }
+      ]
+    }
+  ]
+}
