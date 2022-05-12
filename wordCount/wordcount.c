@@ -14,7 +14,7 @@ void characterCount()
 		c = fgetc(file);
 	}
 	printf("统计出字符共有:%d", charactercount);
-	fclose(file);
+	fclose(file);//使用完后释放空间
 }
 
 void wordCount()
@@ -27,7 +27,7 @@ void wordCount()
 	printf("%c", c);
 	while (c != EOF)
 	{
-		if (c == ' ')
+		if (c == ' ' || c == ',')
 		{
 			flag = 0;
 			c = fgetc(file);
@@ -45,9 +45,9 @@ void wordCount()
 	printf("统计出单词共有:%d", wordcount);
 	fclose(file);
 }
-int main(int argc, char* argv[])
+int main(int argc, char* argv[]) //main函数只有这两种参数
 {
-	if ((strcmp(argv[1], "-c") == 0) && (strcmp(argv[2], "myTest.txt") == 0))
+	if ((strcmp(argv[1], "-c") == 0) && (strcmp(argv[2], "myTest.txt") == 0))//当char数字下标为1时指向第一个参数
 		characterCount();
 	if ((strcmp(argv[1], "-w") == 0) && (strcmp(argv[2], "myTest.txt") == 0))
 		wordCount();
