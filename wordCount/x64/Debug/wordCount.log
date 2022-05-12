@@ -1,1 +1,3 @@
-﻿  wordCount.vcxproj -> D:\repository\gitTest\wordCount\x64\Debug\wordCount.exe
+﻿  wordcount.c
+D:\repository\gitTest\wordCount\wordCount\wordcount.c(50,13): warning C4013: “strcmp”未定义；假设外部返回 int
+  wordCount.vcxproj -> D:\repository\gitTest\wordCount\x64\Debug\wordCount.exe
